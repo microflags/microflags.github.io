@@ -4,9 +4,9 @@ const f2 = [][(![]+[])[+[]]+(![]+[])[!+[]+!+[]]+(![]+[])[+!+[]]+(!![]+[])[+[]]][
 const perspective = document.querySelector("#perspective");
 perspective.innerHTML=`
 <video controls autoplay muted width="500">
-    <source src="${f2}" type="video/mp4"/>
+    <source src="${f1}" type="video/mp4"/>
 </video>
 <video autoplay muted loop width="500">
-    <source src="${f1}" type="video/mp4"/>
+    <source src="${f2}" type="video/mp4"/>
 </video>
 `;
