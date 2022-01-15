@@ -1,0 +1,11 @@
+#perspective {
+  position: relative;
+}
+
+#perspective > * {
+  position: absolute;
+}
+
+#perspective > *:first-child {
+  opacity: 0;
+}
