@@ -1,11 +1,15 @@
 #perspective {
-  position: relative;
+  display: grid;
 }
 
-#perspective > * {
-  position: absolute;
+video {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  opacity: .5;
+  z-index: 2;
 }
 
-#perspective > *:first-child {
-  opacity: 0;
+video[muted] {
+  opacity: 0.5;
+  z-index: 1;
 }
