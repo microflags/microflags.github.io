@@ -1,0 +1,73 @@
+*,*::before,*::after {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: serif;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+
+    padding: 3rem 2rem;
+
+}
+
+body > * {
+    width: 100%;
+}
+
+.center, h1, h2 {
+    text-align: center;
+}
+
+img {
+    margin: 3rem 0;
+}
+
+img.logo {
+    height: 3rem;
+}
+
+address {
+    font-style: normal;
+}
+
+code {
+    background-color: lightgray;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
+
+section,header,main, address {
+    margin-bottom: 2rem;
+}
+
+p {
+    margin-bottom: 0.4rem;
+}
+
+.fakelatex {
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}

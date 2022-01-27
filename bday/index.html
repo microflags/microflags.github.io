@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematický B-deň 2021</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Matematický B-deň 2021</h2>
+        <h1>Riešenia zadaní</h1>
+    </header>
+    <address>
+        <p class="center">Gymnázium <code>Párovská 1, Nitra</code></p>
+        <p class="center">Tím <code>Alpha</code></p>
+        <br>
+        <ol>
+            <li><span>Peter Macák</span><span>petermacak555@gmail.com</span></li>
+            <li><span>Filip Bujdák</span><span>fibu279@gmail.com</span></li>
+            <li><span>Andrej Mikuš</span><span>petermacak555@gmail.com</span></li>
+            <li><span>Oliver Petrovič</span><span>opetrovic@protonmail.com</span></li>
+        </ol>
+    </address>
+    <main>
+        <h2>Úvodné zadania</h2>
+
+        <section>
+            <h3>Úloha 1</h3>
+            <p>
+                Na štvorcových stenách kolmého hranola s rozmermi 4×4×10 ležia body P, Q.
+                Bod P je vo vzdialenosti 3 od stredu hrany na hornej podstave a bod Q je vo vzdialenosti 1
+                od stredu hrany na hornej podstave.
+            </p>
+            <p>Koza chce ísť po povrchu tohto kvádra z bodu P do bodu Q. Je najkratšia trasa zobrazená na obrázku?</p>
+            <p>Vyznačená trasa s dĺžkou 14 je najkratšia trasa, pretože po rozložení povrchu kvádra
+                je táto trasa tvorená úsečkou, ktorá je zároveň rovnobežná s hranami kvádra. Akékoľvek
+                vychýlenie z tejto rovnobežnosti trasu len predĺži.
+            </p>
+            <img src="pq.png" alt="Vizualizácia">
+        </section>
+        <section>
+            <h3>Úloha 2</h3>
+            <p>
+                Potrebujeme dokázať, že priamka vytvorená z bodov na povrchu kocky, prilínajúca k povrchu kocky
+nikdy nepretne sama seba.
+            </p>
+            <img src="priamky.png" alt="Priamky na sieti kocky">
+            <p>Keďže sieť kocky vypĺňa dvojdimenzionálny priestor a v dvojdimenzionálnom
+                priestore sa nikdy žiadna priamka sama so sebou nepretne, nepretne sa ani prilínajúc povrchu kocky.
+                Keby sme všetky sieťe kocky premietli do jednej siete, dostali by sme sieť vyplnenú nekonečným množstvom
+                rovnobežných priamok.
+            </p>
+        </section>
+        <section>
+            <h3>Úloha 3</h3>
+            <p>
+                Portebujeme overiť, či je súčet vnútorných uhlov trojuholníkov prilínajúcich k provrchu
+kocky rovný hodnote π.
+            </p>
+            <img src="cube2.png" alt="Príklad">
+            <p>
+                Ak všetky tri vrcholy trojuholníka patria jednej stene, súčet vnútorných uhlov sa rovná π,
+                nakoľko je možné túto stenu interpretovať ako podmnožinu dvojdimenzionálneho euklidovského priestoru.
+            </p>
+            <img src="cubeeuclid.png" alt="Stena kocky interpretovaná ako euklidovského priestor">
+            <p>
+                Pri rozložení dvoch susediacich segmentov plochy kocky (resp. dve štvorce so spoločnou hranou),
+                vznikne dvojdimenzionálny euklidovský priestor, na ktorom má trojuholník súčet vnútorných uhlov π.
+            </p>
+            <img src="cubedri.png" alt="Ilustrácia">
+            <p>
+                Hypotéza: <code>súčet uhlov v trojuholníku na kocke je lineárne závislý od počtu vrcholov kocky patriacich trojuholníku.</code>
+            </p>
+        </section>
+        <section>
+            <h3>Úloha 4</h3>
+            <p>
+                Na všetkých stenách kocky s hranou 2 rastie lahodná tráva.
+V strede jednej hrany je strom, ku ktorému farmár priviazal lanom kozu. Najkratšie lano, ktoré umožní
+priviazanej koze dostať sa ku všetkej lahodnej tráve, je dlhšie ako √13 a zároveň kratšie ako √17.
+            </p>
+            <p>Najvzdialenejší bod dosiahneme s lanom o dĺžke √2 + √5.
+                Toto bolo zistené pomocou dvoch pravouhlých trojuholníkov, z toho prvý má strany s dĺžkami 1 a teda preponou
+                dlhou √2. A druhý s ramenami dlhými 1, 2 a preponou dlhou √5.
+            </p>
+        </section>
+        <section>
+            <h3>Úloha 5</h3>
+            <p>
+                Farmár má tri kozy, ktoré sa môžu pásť na šťavnatej tráve na stenách kocky. Všetky tri sú priviazané
+                k stĺpu, každá svojim lanom. Laná majú rovnakú dĺžku
+            </p>
+            <img src="circles.png" alt="Kruhy">
+            <p>
+                Lokalizovali sme tri body na kocke, ktore sú vzájomne symetrické relatívne na rotačnú symetriu kocky,
+                a zároveň sú vrcholmi rovnostranného trojuholníka, čo zabezpeční najefektívnejšiu distribúciu stĺpikov na uviazanie kôz.
+                Vypočítali sme dĺžku lana potrebného na vypasenie troch kôz na kuboidnej pastvine.
+                
+            </p>
+            <p>Zistili sme, že ak a je dĺžka hrany kocky, pre dĺžku lana platí:</p>
+
+            <div class="fakelatex">
+                a(0.5*sqrt(5/2))
+            </div>
+        </section>
+    </main>
+    <main>
+        <h2>Záverečné problémy</h2>
+        <h3>Úloha 7</h3>
+        <p>
+            Vybrali sme si problém s dvomi kozami a štvorstenom.
+        </p>
+        <p>
+            Z náčrtu vyplynulo, že polomer kružnice (dĺžka lana) sa rovná:
+        </p>
+        <div class="fakelatex">
+            (a(3*sqrt(3))+2a)/12
+        </div>
+        <p class="center">Kde a je hrana štvorsena.</p>
+        <img src="triangle.png" alt="Trojuholník">
+
+    </section>
+    </main>
+    <footer>
+        <p>&copy; Peter Macák, Filip Bujdák, Andrej Mikuš, Oliver Petrovič, 2022. Všetky práva vyhradené.</p>
+    </footer>
+</body>
+</html>
